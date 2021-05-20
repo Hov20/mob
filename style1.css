@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+section {
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+div h2 {
+    color: #276DC3;
+}
+hr {
+    margin-top: 5%;
+}
+td {
+    width: 7%;
+}
+h1 {
+    margin-top: 20%;
+}
+#big {
+    display: flex;
+    justify-content: space-between;
+}
+#smal {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 200px;
+    margin-top: 17%;
+}
+#smal button {
+    width: 90px;
+    height: 50px;
+}
+#gog {
+    margin-right: 500px;
+}
+#A {
+    background-color: #276DC3;
+    color: white;
+    border-radius: 5px;
+    margin-right: 15px;
+    padding: 30px, 10px;
+}
+#B {
+    background-color: #FF7340;
+    color: white;
+    border-radius: 5px;
+    padding: 30px, 10px;
+}
