@@ -5,7 +5,9 @@
 html {
     font-size: 16px;
 }
-
+body {
+    background-color: #E5E5E5;;
+}
 header {
     width: 100%;
     background-image: url("./assets/nav.png");
@@ -42,7 +44,7 @@ header {
      margin-top: 50px;
  }
  .section_image_content {
-     width: 90%;
+     width: 80%;
      display: flex;
      justify-content:space-between;
      flex-wrap: wrap;
@@ -72,5 +74,64 @@ header {
  }
  #Cruising_Europe > div > div > h3 {
      margin-bottom: 30px;
- }
- 
+}
+#solder {
+    align-items: center;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: #FFFFFF;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#solder div {
+    border-radius: 1px;
+}
+.n1 {
+    font-size: 20px;
+}
+.n2 {
+    color: #0F123B;
+}
+#solder div button {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: #FF7340;
+}
+#sar {
+    color: white;
+    background-color: #276DC3;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#mall {
+    margin-top: 100px;
+}
+#div {
+    width: 90%;
+    height: 200px;
+    background-color: white;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#div input {
+    margin-left: 100px;
+    width: 80%;
+    height: 40px;
+    background-color: #F8FAFB;
+    margin-top: 30px;
+}
+#div h2 {
+    color: #0F123B;
+    margin-left: 100px;
+}
+#born {
+    margin-top: 30px;
+}
