@@ -53,6 +53,8 @@ header {
  section {
      width: 100%;
      align-self: center;
+     flex-wrap: wrap;
+     margin: auto;
  }
 
  .section_image_content  img {
@@ -66,8 +68,11 @@ header {
      margin-top: 80px;
  }
  #Cruising_Europe {
+     width: 89%;
      display: flex;
      justify-content: center;
+     flex-wrap: wrap;
+     margin: auto;
  }
  #Cruising_Europe > div > div {
      max-width: 690px;
@@ -78,7 +83,8 @@ header {
 #solder {
     align-items: center;
     width: 80%;
-    height: 80px;
+    bottom: 140px;
+    height: 150px;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -87,18 +93,38 @@ header {
     margin: auto;
 }
 #solder div {
-    border-radius: 1px;
+    margin-right: 0 auto;
+    flex-wrap: wrap;
+    margin: auto;
+    border-right: 1px solid black;
+    height: 100px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+#solder div:not(:last-child) {
+    border-right: 1px solid black;
+    width: 10%;
+}
+#dava {
+    border-right: 0 !important;
+}
+#solder div:first-child {
+    padding-left: 15px;
 }
 .n1 {
     font-size: 20px;
+    color: black;
+    padding-bottom: 5px;
 }
 .n2 {
     color: #0F123B;
+    padding-top: 5px;
 }
 #solder div button {
     width: 250px;
     height: 50px;
     border-radius: 5px;
+    border: none;
     color: white;
     background-color: #FF7340;
 }
@@ -115,11 +141,17 @@ header {
     margin-top: 100px;
 }
 #div {
-    width: 90%;
+    width: 80%;
     height: 200px;
     background-color: white;
     flex-wrap: wrap;
     margin: auto;
+}
+#div div input {
+    border: none;
+}
+#div div button {
+    border: none;
 }
 #div input {
     margin-left: 100px;
@@ -127,6 +159,7 @@ header {
     height: 40px;
     background-color: #F8FAFB;
     margin-top: 30px;
+    border-radius: 5px;
 }
 #div h2 {
     color: #0F123B;
